@@ -77,6 +77,8 @@ body {
   height: 100vh;
   justify-content: center;
   width: 100%;
+  /* background: url(https://picsum.photos/id/790/1920/1080);
+  background-size: cover; */
 }
 
 h1 {
