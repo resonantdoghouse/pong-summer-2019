@@ -31,14 +31,12 @@ export default class Game {
       this.height, // board height
       this.paddleWidth, 
       this.paddleHeight,
-      this.width - (this.boardGap + this.paddleWidth), // update this line to be 10px from the right of the board
+      this.width - (this.boardGap + this.paddleWidth), 
       ((this.height - this.paddleHeight) / 2),
       'coral',
       KEYS.up,
       KEYS.down
     );
-
-    // this.player1 = new Paddle(this.height, 8, 56, 10, 100, 'red');
 
   }// end of constructor
 
