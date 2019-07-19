@@ -8,4 +8,9 @@ export const KEYS = {
     spaceBar: " ", // we'll use this later...
   }
 
-  
+export const PaddleOptions = {
+    paddleWidth: 8,
+    paddleHeight: 56,
+    boardGap: 10,
+}
+
